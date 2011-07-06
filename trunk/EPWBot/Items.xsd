@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="items">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element maxOccurs="unbounded" name="weapon">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
+                <xs:element name="requiredLevel" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" />
+                <xs:element name="shopPrice" type="xs:unsignedInt" minOccurs="1" maxOccurs="1" />
+                <xs:element name="image" type="xs:string" minOccurs="1" maxOccurs="1" />
+                <xs:element name="attack" type="xs:unsignedShort" maxOccurs="1" />
+                <xs:element minOccurs="0" name="defense" type="xs:short" maxOccurs="1" />
+                <xs:element minOccurs="0" name="maxHp" type="xs:short" maxOccurs="1" />
+                <xs:element minOccurs="0" name="maxEnergy" type="xs:byte" maxOccurs="1" />
+                <xs:element minOccurs="0" name="income" type="xs:int" maxOccurs="1" />
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="armor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
+                <xs:element name="requiredLevel" type="xs:unsignedByte" minOccurs="1" maxOccurs="1" />
+                <xs:element name="shopPrice" type="xs:unsignedInt" minOccurs="1" maxOccurs="1" />
+                <xs:element name="image" type="xs:string" minOccurs="1" maxOccurs="1" />
+                <xs:element name="attack" type="xs:unsignedShort" maxOccurs="1" />
+                <xs:element minOccurs="0" name="defense" type="xs:short" maxOccurs="1" />
+                <xs:element minOccurs="0" name="maxHp" type="xs:short" maxOccurs="1" />
+                <xs:element minOccurs="0" name="maxEnergy" type="xs:byte" maxOccurs="1" />
+                <xs:element minOccurs="0" name="income" type="xs:int" maxOccurs="1" />
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

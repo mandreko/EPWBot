@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <!-- Standard Weapons -->
+  <weapon>
+    <name>Rusty Sword</name>
+    <requiredLevel>1</requiredLevel>
+    <shopPrice>300</shopPrice>
+    <image>rusty_sword.png</image>
+    <attack>1</attack>
+  </weapon>
+  <weapon>
+    <name>Steel Sword</name>
+    <requiredLevel>2</requiredLevel>
+    <shopPrice>1200</shopPrice>
+    <image>steel_sword.png</image>
+    <attack>3</attack>
+    <maxHp>5</maxHp>
+  </weapon>
+  <weapon>
+    <name>Boomerang</name>
+    <requiredLevel>4</requiredLevel>
+    <shopPrice>1600</shopPrice>
+    <image>boomerang.png</image>
+    <attack>6</attack>
+    <maxHp>5</maxHp>
+    <maxEnergy>2</maxEnergy>
+    <income>-14</income>
+  </weapon>
+  <weapon>
+    <name>Bomb</name>
+    <requiredLevel>7</requiredLevel>
+    <shopPrice>2000</shopPrice>
+    <image>bomb.png</image>
+    <attack>10</attack>
+    <defense>-5</defense>
+    <income>-27</income>
+  </weapon>
+  <weapon>
+    <name>Hash Sword</name>
+    <requiredLevel>7</requiredLevel>
+    <shopPrice>5800</shopPrice>
+    <image>hash_sword.png</image>
+    <attack>15</attack>
+    <maxHp>10</maxHp>
+    <income>-80</income>
+  </weapon>
+  <weapon>
+    <name>X-10 Blaster</name>
+    <requiredLevel>8</requiredLevel>
+    <shopPrice>3500</shopPrice>
+    <image>x_10_blaster.png</image>
+    <attack>10</attack>
+    <maxEnergy>2</maxEnergy>
+    <income>-48</income>
+  </weapon>
+  <weapon>
+    <name>Fire Boomerang</name>
+    <requiredLevel>9</requiredLevel>
+    <shopPrice>5000</shopPrice>
+    <image>fire_boomerang.png</image>
+    <attack>10</attack>
+    <maxEnergy>4</maxEnergy>
+    <income>-20</income>
+  </weapon>
+  <weapon>
+    <name>Hammer Time</name>
+    <requiredLevel>9</requiredLevel>
+    <shopPrice>5000</shopPrice>
+    <image>hammer.png</image>
+    <attack>18</attack>
+    <income>-72</income>
+  </weapon>
+  <weapon>
+    <name>Flame Thrower</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>8000</shopPrice>
+    <image>flame_thrower.png</image>
+    <attack>20</attack>
+    <maxHp>-30</maxHp>
+    <income>-133</income>
+  </weapon>
+  <weapon>
+    <name>Napalm Cannon</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>10000</shopPrice>
+    <image>napalm_cannon.png</image>
+    <attack>20</attack>
+    <income>-166</income>
+  </weapon>
+  <weapon>
+    <name>Magnum Bomb</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>13500</shopPrice>
+    <image>magnum_bomb.png</image>
+    <attack>27</attack>
+    <defense>-7</defense>
+    <income>-225</income>
+  </weapon>
+  <weapon>
+    <name>Paradox Shield</name>
+    <requiredLevel>13</requiredLevel>
+    <shopPrice>15000</shopPrice>
+    <image>paradox_shield.png</image>
+    <attack>15</attack>
+    <defense>10</defense>
+    <maxHp>10</maxHp>
+    <income>-250</income>
+  </weapon>
+  <weapon>
+    <name>Raphael's Sais</name>
+    <requiredLevel>15</requiredLevel>
+    <shopPrice>15000</shopPrice>
+    <image>sais.png</image>
+    <attack>25</attack>
+    <maxHp>20</maxHp>
+    <maxEnergy>3</maxEnergy>
+    <income>-313</income>
+  </weapon>
+  <weapon>
+    <name>Glacier Bomb</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>15000</shopPrice>
+    <image>glacier_bomb.png</image>
+    <attack>35</attack>
+    <defense>-10</defense>
+    <income>-313</income>
+  </weapon>
+  <weapon>
+    <name>Cluster Cannon</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>18000</shopPrice>
+    <image>cluster_cannon.png</image>
+    <attack>30</attack>
+    <income>-375</income>
+  </weapon>
+  <weapon>
+    <name>Chemical Thrower</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>21000</shopPrice>
+    <image>chemical_thrower.png</image>
+    <attack>42</attack>
+    <defense>-10</defense>
+    <maxHp>-50</maxHp>
+    <income>-438</income>
+  </weapon>
+  <weapon>
+    <name>October Sword</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>28000</shopPrice>
+    <image>october_sword.png</image>
+    <attack>30</attack>
+    <defense>5</defense>
+    <maxHp>50</maxHp>
+    <maxEnergy>8</maxEnergy>
+    <income>-584</income>
+  </weapon>
+  <weapon>
+    <name>Atlantic Cannon</name>
+    <requiredLevel>18</requiredLevel>
+    <shopPrice>30000</shopPrice>
+    <image>atlantic_cannon.png</image>
+    <attack>45</attack>
+    <maxHp>75</maxHp>
+    <income>-625</income>
+  </weapon>
+  <weapon>
+    <name>Steel Dagger</name>
+    <requiredLevel>20</requiredLevel>
+    <shopPrice>32000</shopPrice>
+    <image>dagger.png</image>
+    <attack>40</attack>
+    <defense>12</defense>
+    <maxHp>50</maxHp>
+    <maxEnergy>4</maxEnergy>
+    <income>-700</income>
+  </weapon>
+  <weapon>
+    <name>Pacific Sword</name>
+    <requiredLevel>22</requiredLevel>
+    <shopPrice>36000</shopPrice>
+    <image>pacific_sword.png</image>
+    <attack>50</attack>
+    <defense>8</defense>
+    <maxHp>100</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-1000</income>
+  </weapon>
+  <weapon>
+    <name>Nova Cannon</name>
+    <requiredLevel>22</requiredLevel>
+    <shopPrice>40000</shopPrice>
+    <image>nova_cannon.png</image>
+    <attack>52</attack>
+    <maxHp>150</maxHp>
+    <income>-1110</income>
+  </weapon>
+  <weapon>
+    <name>Atom Thrower</name>
+    <requiredLevel>22</requiredLevel>
+    <shopPrice>41000</shopPrice>
+    <image>atom_thrower.png</image>
+    <attack>59</attack>
+    <maxHp>-100</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-683</income>
+  </weapon>
+  <weapon>
+    <name>Organic Blaster</name>
+    <requiredLevel>23</requiredLevel>
+    <shopPrice>39000</shopPrice>
+    <image>organic_blaster.png</image>
+    <attack>50</attack>
+    <maxHp>50</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-1084</income>
+  </weapon>
+  <weapon>
+    <name>Katana</name>
+    <requiredLevel>24</requiredLevel>
+    <shopPrice>43500</shopPrice>
+    <image>katana.png</image>
+    <attack>55</attack>
+    <defense>20</defense>
+    <maxHp>100</maxHp>
+    <maxEnergy>6</maxEnergy>
+    <income>-1400</income>
+  </weapon>
+  <weapon>
+    <name>Stratus Shield</name>
+    <requiredLevel>27</requiredLevel>
+    <shopPrice>50000</shopPrice>
+    <image>stratus_shield.png</image>
+    <attack>65</attack>
+    <defense>25</defense>
+    <maxHp>200</maxHp>
+    <income>-2084</income>
+  </weapon>
+  <weapon>
+    <name>Sunflare Cannon</name>
+    <requiredLevel>27</requiredLevel>
+    <shopPrice>55000</shopPrice>
+    <image>sunflare_cannon.png</image>
+    <attack>80</attack>
+    <maxHp>200</maxHp>
+    <income>-2292</income>
+  </weapon>
+  <weapon>
+    <name>Heavenly Bomb</name>
+    <requiredLevel>27</requiredLevel>
+    <shopPrice>60000</shopPrice>
+    <image>heavenly_bomb.png</image>
+    <attack>95</attack>
+    <defense>-20</defense>
+    <income>2500</income>
+  </weapon>
+  <weapon>
+    <name>Mage Staff</name>
+    <requiredLevel>29</requiredLevel>
+    <shopPrice>66000</shopPrice>
+    <image>wooden_staff.png</image>
+    <attack>80</attack>
+    <maxHp>80</maxHp>
+    <maxEnergy>12</maxEnergy>
+    <income>-3250</income>
+  </weapon>
+  <weapon>
+    <name>Hail Thrower</name>
+    <requiredLevel>32</requiredLevel>
+    <shopPrice>75000</shopPrice>
+    <image>hail_thrower.png</image>
+    <attack>120</attack>
+    <maxHp>-200</maxHp>
+    <income>-6250</income>
+  </weapon>
+  <weapon>
+    <name>Sublime Cannon</name>
+    <requiredLevel>32</requiredLevel>
+    <shopPrice>85000</shopPrice>
+    <image>sublime_cannon.png</image>
+    <attack>100</attack>
+    <maxHp>300</maxHp>
+    <income>-7085</income>
+  </weapon>
+  <weapon>
+    <name>Solar Shield</name>
+    <requiredLevel>32</requiredLevel>
+    <shopPrice>100000</shopPrice>
+    <image>solar_shield.png</image>
+    <attack>100</attack>
+    <defense>35</defense>
+    <maxHp>350</maxHp>
+    <income>-8350</income>
+  </weapon>
+  <weapon>
+    <name>Fistacuff Knuckles</name>
+    <requiredLevel>34</requiredLevel>
+    <shopPrice>120000</shopPrice>
+    <image>brass_knuckles.png</image>
+    <attack>115</attack>
+    <defense>20</defense>
+    <maxHp>250</maxHp>
+    <maxEnergy>4</maxEnergy>
+    <income>-11000</income>
+  </weapon>
+  <weapon>
+    <name>Frak Blaster</name>
+    <requiredLevel>37</requiredLevel>
+    <shopPrice>150000</shopPrice>
+    <image>frak_blaster.png</image>
+    <attack>140</attack>
+    <maxHp>200</maxHp>
+    <maxEnergy>25</maxEnergy>
+    <income>-18750</income>
+  </weapon>
+  <weapon>
+    <name>Chaos Bomb</name>
+    <requiredLevel>37</requiredLevel>
+    <shopPrice>250000</shopPrice>
+    <image>chaos_bomb.png</image>
+    <attack>200</attack>
+    <defense>-30</defense>
+    <income>-31250</income>
+  </weapon>
+  <weapon>
+    <name>Liberty Dagger</name>
+    <requiredLevel>39</requiredLevel>
+    <shopPrice>300000</shopPrice>
+    <image>liberty_dagger.png</image>
+    <attack>190</attack>
+    <maxEnergy>10</maxEnergy>
+    <income>-25000</income>
+  </weapon>
+  <weapon>
+    <name>Creek Dagger</name>
+    <requiredLevel>40</requiredLevel>
+    <shopPrice>400000</shopPrice>
+    <image>creek_dagger.png</image>
+    <attack>260</attack>
+    <defense>-50</defense>
+    <income>-92000</income>
+  </weapon>
+  <weapon>
+    <name>Enigma Shield</name>
+    <requiredLevel>42</requiredLevel>
+    <shopPrice>500000</shopPrice>
+    <image>enigma_shield.png</image>
+    <attack>250</attack>
+    <defense>60</defense>
+    <maxHp>500</maxHp>
+    <income>-125000</income>
+  </weapon>
+  <weapon>
+    <name>Ragnarok Sword</name>
+    <requiredLevel>42</requiredLevel>
+    <shopPrice>2000000</shopPrice>
+    <image>ragnarok_sword.png</image>
+    <attack>300</attack>
+    <defense>100</defense>
+    <maxHp>350</maxHp>
+    <income>-500000</income>
+  </weapon>
+  <weapon>
+    <name>Fathom Staff</name>
+    <requiredLevel>44</requiredLevel>
+    <shopPrice>1000000</shopPrice>
+    <image>fathom_staff.png</image>
+    <attack>350</attack>
+    <income>-200000</income>
+  </weapon>
+  <weapon>
+    <name>Hell Blade</name>
+    <requiredLevel>46</requiredLevel>
+    <shopPrice>4000000</shopPrice>
+    <image>hell_blade.png</image>
+    <attack>350</attack>
+    <defense>120</defense>
+    <maxHp>400</maxHp>
+    <income>-500000</income>
+  </weapon>
+  <weapon>
+    <name>Kogal Katana</name>
+    <requiredLevel>57</requiredLevel>
+    <shopPrice>10000000</shopPrice>
+    <image>coral_katana.png</image>
+    <attack>375</attack>
+    <defense>150</defense>
+    <maxHp>650</maxHp>
+    <maxEnergy>20</maxEnergy>
+    <income>-550000</income>
+  </weapon>
+  <weapon>
+    <name>Sun Dagger</name>
+    <requiredLevel>60</requiredLevel>
+    <shopPrice>17000000</shopPrice>
+    <image>sun_dagger.png</image>
+    <attack>480</attack>
+    <defense>80</defense>
+    <maxHp>900</maxHp>
+    <maxEnergy>30</maxEnergy>
+    <income>-650000</income>
+  </weapon>
+  <weapon>
+    <name>Zealander Sword</name>
+    <requiredLevel>64</requiredLevel>
+    <shopPrice>38000000</shopPrice>
+    <image>zealand_sword.png</image>
+    <attack>620</attack>
+    <maxHp>500</maxHp>
+    <maxEnergy>20</maxEnergy>
+    <income>-720000</income>
+  </weapon>
+  <weapon>
+    <name>Cursed Rapier</name>
+    <requiredLevel>70</requiredLevel>
+    <shopPrice>55000000</shopPrice>
+    <image>cursed_rapier.png</image>
+    <attack>1000</attack>
+    <defense>-200</defense>
+    <maxHp>-1000</maxHp>
+    <maxEnergy>-10</maxEnergy>
+    <income>-790000</income>
+  </weapon>
+  <weapon>
+    <name>Forgiven Rapier</name>
+    <requiredLevel>76</requiredLevel>
+    <shopPrice>95000000</shopPrice>
+    <image>vampire_sword.png</image>
+    <attack>999</attack>
+    <defense>100</defense>
+    <maxHp>2000</maxHp>
+    <maxEnergy>30</maxEnergy>
+    <income>-875000</income>
+  </weapon>
+  <!-- Battlemaster Weapons -->
+  <!-- Standard Armor -->
+  <armor>
+    <name>White Tee</name>
+    <requiredLevel>1</requiredLevel>
+    <shopPrice>400</shopPrice>
+    <image>white_tee.png</image>
+    <defense>2</defense>
+  </armor>
+  <armor>
+    <name>Ninja Robe</name>
+    <requiredLevel>2</requiredLevel>
+    <shopPrice>900</shopPrice>
+    <image>ninja_robe.png</image>
+    <defense>4</defense>
+    <maxHp>-5</maxHp>
+  </armor>
+  <armor>
+    <name>Blue Tee</name>
+    <requiredLevel>2</requiredLevel>
+    <shopPrice>1200</shopPrice>
+    <image>blue_tee.png</image>
+    <defense>3</defense>
+    <attack>1</attack>
+  </armor>
+  <armor>
+    <name>Blazer</name>
+    <requiredLevel>4</requiredLevel>
+    <shopPrice>1600</shopPrice>
+    <image>blazer.png</image>
+    <defense>1</defense>
+    <maxHp>40</maxHp>
+  </armor>
+  <armor>
+    <name>Bulletproof Vest</name>
+    <requiredLevel>7</requiredLevel>
+    <shopPrice>1800</shopPrice>
+    <image>bulletproof_vest.png</image>
+    <maxHp>10</maxHp>
+    <defense>5</defense>
+    <income>-25</income>
+  </armor>
+  <armor>
+    <name>Purple Tee</name>
+    <requiredLevel>7</requiredLevel>
+    <shopPrice>2400</shopPrice>
+    <image>purple_tee.png</image>
+    <defense>3</defense>
+    <maxHp>5</maxHp>
+    <maxEnergy>5</maxEnergy>
+    <income>-33</income>
+  </armor>
+  <armor>
+    <name>Orange Tee</name>
+    <requiredLevel>8</requiredLevel>
+    <shopPrice>3000</shopPrice>
+    <image>orange_tee.png</image>
+    <defense>4</defense>
+    <maxHp>30</maxHp>
+    <maxEnergy>2</maxEnergy>
+    <income>-41</income>
+  </armor>
+  <armor>
+    <name>Camo Vest</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>4000</shopPrice>
+    <image>camo_vest.png</image>
+    <defense>8</defense>
+    <maxHp>25</maxHp>
+    <income>-67</income>
+  </armor>
+  <armor>
+    <name>Red Tee</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>4000</shopPrice>
+    <image>red_tee.png</image>
+    <defense>6</defense>
+    <maxHp>10</maxHp>
+    <maxEnergy>4</maxEnergy>
+    <income>-67</income>
+  </armor>
+  <armor>
+    <name>Cacti Robe</name>
+    <requiredLevel>12</requiredLevel>
+    <shopPrice>6000</shopPrice>
+    <image>cacti_robe.png</image>
+    <defense>8</defense>
+    <attack>2</attack>
+    <maxEnergy>5</maxEnergy>
+    <maxHp>20</maxHp>
+    <income>-67</income>
+  </armor>
+  <armor>
+    <name>Hipster Grifter Jeans</name>
+    <requiredLevel>14</requiredLevel>
+    <shopPrice>5000</shopPrice>
+    <image>slim_jeans.png</image>
+    <defense>8</defense>
+    <maxEnergy>7</maxEnergy>
+    <income>-84</income>
+  </armor>
+  <armor>
+    <name>Tank Vest</name>
+    <requiredLevel>16</requiredLevel>
+    <shopPrice>6500</shopPrice>
+    <image>tank_vest.png</image>
+    <defense>12</defense>
+    <maxHp>40</maxHp>
+    <income>-105</income>
+  </armor>
+  <armor>
+    <name>Sky Robe</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>8000</shopPrice>
+    <image>sky_robe.png</image>
+    <defense>10</defense>
+    <maxHp>25</maxHp>
+    <maxEnergy>6</maxEnergy>
+    <income>-168</income>
+  </armor>
+  <armor>
+    <name>Charcoal Tee</name>
+    <requiredLevel>17</requiredLevel>
+    <shopPrice>10000</shopPrice>
+    <image>charcoal_tee.png</image>
+    <defense>10</defense>
+    <maxHp>40</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-208</income>
+  </armor>
+  <armor>
+    <name>Monolith Gear</name>
+    <requiredLevel>18</requiredLevel>
+    <shopPrice>20000</shopPrice>
+    <image>monolith_gear.png</image>
+    <defense>25</defense>
+    <maxHp>50</maxHp>
+    <income>-312</income>
+  </armor>
+  <armor>
+    <name>Catacomb Plate</name>
+    <requiredLevel>18</requiredLevel>
+    <shopPrice>20000</shopPrice>
+    <image>catacomb_plate.png</image>
+    <defense>30</defense>
+    <attack>2</attack>
+    <maxHp>75</maxHp>
+    <income>-416</income>
+  </armor>
+  <armor>
+    <name>Reflection Armor</name>
+    <requiredLevel>22</requiredLevel>
+    <shopPrice>25000</shopPrice>
+    <image>reflection_armor.png</image>
+    <defense>45</defense>
+    <attack>5</attack>
+    <maxHp>200</maxHp>
+    <maxEnergy>5</maxEnergy>
+    <income>-694</income>
+  </armor>
+  <armor>
+    <name>Venus Gear</name>
+    <requiredLevel>22</requiredLevel>
+    <shopPrice>40000</shopPrice>
+    <image>venus_gear.png</image>
+    <defense>60</defense>
+    <attack>10</attack>
+    <maxHp>300</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-1110</income>
+  </armor>
+  <armor>
+    <name>Magma Plate</name>
+    <requiredLevel>23</requiredLevel>
+    <shopPrice>32000</shopPrice>
+    <image>flame_plate.png</image>
+    <defense>50</defense>
+    <attack>10</attack>
+    <maxHp>400</maxHp>
+    <income>-890</income>
+  </armor>
+  <armor>
+    <name>Sage Robe</name>
+    <requiredLevel>24</requiredLevel>
+    <shopPrice>42000</shopPrice>
+    <image>wizard_robe.png</image>
+    <defense>58</defense>
+    <maxHp>250</maxHp>
+    <maxEnergy>18</maxEnergy>
+    <income>-1200</income>
+  </armor>
+  <armor>
+    <name>Shiva Armor</name>
+    <requiredLevel>27</requiredLevel>
+    <shopPrice>50000</shopPrice>
+    <image>shiva_armor.png</image>
+    <defense>65</defense>
+    <attack>15</attack>
+    <maxHp>500</maxHp>
+    <maxEnergy>20</maxEnergy>
+    <income>-2084</income>
+  </armor>
+  <armor>
+    <name>Sequoia Plate</name>
+    <requiredLevel>27</requiredLevel>
+    <shopPrice>65000</shopPrice>
+    <image>sequoia_plate.png</image>
+    <defense>90</defense>
+    <maxHp>550</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-2708</income>
+  </armor>
+  <armor>
+    <name>Ifrit Armor</name>
+    <requiredLevel>32</requiredLevel>
+    <shopPrice>80000</shopPrice>
+    <image>ifrit_armor.png</image>
+    <defense>110</defense>
+    <attack>20</attack>
+    <maxHp>700</maxHp>
+    <income>-6750</income>
+  </armor>
+  <armor>
+    <name>Atlantis Gear</name>
+    <requiredLevel>32</requiredLevel>
+    <shopPrice>100000</shopPrice>
+    <image>atlantis_gear.png</image>
+    <defense>140</defense>
+    <maxHp>700</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-6750</income>
+  </armor>
+  <armor>
+    <name>Oil Denim</name>
+    <requiredLevel>34</requiredLevel>
+    <shopPrice>190000</shopPrice>
+    <image>oil_denim.png</image>
+    <defense>160</defense>
+    <attack>20</attack>
+    <maxHp>500</maxHp>
+    <maxEnergy>10</maxEnergy>
+    <income>-18759</income>
+  </armor>
+  <armor>
+    <name>Ramuh Armor</name>
+    <requiredLevel>37</requiredLevel>
+    <shopPrice>200000</shopPrice>
+    <image>ramuh_armor.png</image>
+    <defense>175</defense>
+    <attack>30</attack>
+    <maxHp>900</maxHp>
+    <maxEnergy>15</maxEnergy>
+    <income>-25000</income>
+  </armor>
+  <armor>
+    <name>Raiden Armor></name>
+    <requiredLevel>37</requiredLevel>
+    <shopPrice>400000</shopPrice>
+    <image>raiden_armor.png</image>
+    <defense>220</defense>
+    <attack>40</attack>
+    <maxHp>1400</maxHp>
+    <maxEnergy>25</maxEnergy>
+    <income>-50000</income>
+  </armor>
+  <armor>
+    <name>Stained Mail</name>
+    <requiredLevel>38</requiredLevel>
+    <shopPrice>550000</shopPrice>
+    <image>stained_mail.png</image>
+    <defense>245</defense>
+    <attack>70</attack>
+    <maxHp>900</maxHp>
+    <income>-71000</income>
+  </armor>
+  <armor>
+    <name>Millionaire Coat</name>
+    <requiredLevel>39</requiredLevel>
+    <shopPrice>700000</shopPrice>
+    <image>millionaire_coat.png</image>
+    <defense>270</defense>
+    <attack>20</attack>
+    <maxHp>1400</maxHp>
+    <income>-100000</income>
+  </armor>
+  <armor>
+    <name>Phantom Armor</name>
+    <requiredLevel>42</requiredLevel>
+    <shopPrice>1000000</shopPrice>
+    <image>phantom_armor.png</image>
+    <defense>300</defense>
+    <maxHp>2000</maxHp>
+    <income>-250000</income>
+  </armor>
+  <armor>
+    <name>Chronic Mail</name>
+    <requiredLevel>44</requiredLevel>
+    <shopPrice>1500000</shopPrice>
+    <image>chronic_armor.png</image>
+    <defense>280</defense>
+    <maxHp>2500</maxHp>
+    <maxEnergy>20</maxEnergy>
+    <income>-225000</income>
+  </armor>
+  <armor>
+    <name>Autumn Mail</name>
+    <requiredLevel>47</requiredLevel>
+    <shopPrice>3000000</shopPrice>
+    <image>autumn_mail.png</image>
+    <defense>220</defense>
+    <attack>40</attack>
+    <maxHp>3000</maxHp>
+    <income>-275000</income>
+  </armor>
+  <armor>
+    <name>Trump Jacket</name>
+    <requiredLevel>47</requiredLevel>
+    <shopPrice>5000000</shopPrice>
+    <image>trump_jacket.png</image>
+    <defense>200</defense>
+    <maxHp>2000</maxHp>
+    <maxEnergy>40</maxEnergy>
+    <income>-150000</income>
+  </armor>
+  <armor>
+    <name>Lotus Mail</name>
+    <requiredLevel>55</requiredLevel>
+    <shopPrice>9000000</shopPrice>
+    <image>lotus_mail.png</image>
+    <defense>400</defense>
+    <attack>80</attack>
+    <maxHp>2000</maxHp>
+    <income>-350000</income>
+  </armor>
+  <armor>
+    <name>Tortoise Plate</name>
+    <requiredLevel>60</requiredLevel>
+    <shopPrice>16500000</shopPrice>
+    <image>tortise_plate.png</image>
+    <defense>490</defense>
+    <attack>100</attack>
+    <maxHp>2700</maxHp>
+    <maxEnergy>30</maxEnergy>
+    <income>-370000</income>
+  </armor>
+  <armor>
+    <name>Deception Mail</name>
+    <requiredLevel>67</requiredLevel>
+    <shopPrice>27000000</shopPrice>
+    <image>deception_mail.png</image>
+    <defense>420</defense>
+    <attack>50</attack>
+    <maxHp>4900</maxHp>
+    <income>-390000</income>
+  </armor>
+  <!-- Battlemaster Armor -->
+</items>

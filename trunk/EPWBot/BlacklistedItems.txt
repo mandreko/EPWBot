@@ -1,0 +1,13 @@
+﻿blood_diamond_knuckles.png
+blessed_sais.png
+descent_armor.png
+coral_katana.png
+deception_mail.png
+tortise_plate.png
+lotus_mail.png
+vampire_sword.png
+cursed_rapier.png
+zealand_sword.png
+sun_dagger.png
+hell_blade.png
+fathom_staff.png
